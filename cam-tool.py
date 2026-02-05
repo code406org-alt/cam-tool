@@ -49,7 +49,8 @@ def loading_animation(duration=7):
         sys.stdout.flush()
         time.sleep(0.1)
         i += 1
-    sys.stdout.write(f"\r{SILVER_DARK}[>] connected ✓                        {WHITE}\n")
+    sys.stdout.write(f"\r{SILVER_DARK}[>] connected ✓                      {WHITE}\n")
+    time.sleep(2)
 
 
 def get_unique_id():
@@ -92,7 +93,7 @@ while True:
         type_effect(f"{WHITE}-----------------------------------------------------------")
         type_effect(f"{WHITE}[>] Mode by : MOSTAFA")
         type_effect(f"{WHITE}[>] Author  : git-blackhub and MOSTAFA")
-        type_effect(f"{WHITE}[>] GitHub  : https://github.com/git-blackhub")
+        type_effect(f"{WHITE}[>] GitHub  : https://github.com/code406org-alt")
 
         print(f"""
 \033[1;37m                                                                         
@@ -182,7 +183,7 @@ while True:
         print(f"\n{SILVER_DARK}[+] Subscribe to our channel for more scripts...{WHITE}")
         time.sleep(3.5)
         
-        yt_url = "https://www.youtube.com/@git-blackhub"
+        yt_url = "https://www.youtube.com/@git-Black-Hub"
         if os.path.exists('/data/data/com.termux/files/usr/bin/termux-open'):
             os.system(f'termux-open {yt_url}')
         else:
